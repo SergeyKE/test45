@@ -23,5 +23,5 @@ test('buy', async ({ page }) => {
   await page.click('button[data-result="BUTTON_TEXT"]');
   const endTime = new Date();
   const totalTime = (endTime - startTime) / 1000;
-  console.log(`Успешно. Время выполнения теста: ${totalTime} секунд.`);
+  console.log(`Успешно. Время выполнения теста: ${totalTime} секунд.`); // результат 
 });
